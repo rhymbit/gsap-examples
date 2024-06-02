@@ -8,14 +8,15 @@
 	</div>
 	<div class="navbar-center flex">
 		<ul class="menu menu-horizontal px-1">
-			<li><a>Item 1</a></li>
 			<li>
 				<NavbarDropdown
 					buttonTitle="Flip"
-					items={[{ label: 'Card Sweeping With Scrollbar', href: 'card-sweeping-with-scrollbar' }]}
+					items={[
+						{ label: 'Cards Slider', href: 'cards-slider' },
+						{ label: 'Card Sweeping With Scrollbar', href: 'card-sweeping-with-scrollbar' }
+					]}
 				/>
 			</li>
-			<li><a>Item 3</a></li>
 		</ul>
 	</div>
 	<div class="navbar-end"></div>
