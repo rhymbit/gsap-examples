@@ -2,7 +2,7 @@
 	import NavbarDropdown from './navbar-dropdown.svelte';
 </script>
 
-<div class="navbar bg-primary/20">
+<div class="navbar bg-base-300">
 	<div class="navbar-start">
 		<a href="/" class="btn btn-ghost text-xl">GSAP Examples</a>
 	</div>
@@ -13,6 +13,7 @@
 					buttonTitle="Flip"
 					items={[
 						{ label: 'Cards Slider', href: 'cards-slider' },
+						{ label: 'Elements Swap', href: 'elements-swap' },
 						{ label: 'Card Sweeping With Scrollbar', href: 'card-sweeping-with-scrollbar' }
 					]}
 				/>

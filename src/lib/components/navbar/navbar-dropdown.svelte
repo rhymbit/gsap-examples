@@ -11,8 +11,8 @@
 	<div tabindex="0" role="button">{buttonTitle}</div>
 	<ul
 		class="dropdown-content w-max max-w-xs pt-4
-		relative before:absolute before:inset-0 before:w-full before:h-full before:mt-4 before:pr-3 before:bg-primary before:opacity-40
-		before:shadow before:shadow-base-content before:rounded-b-box
+		relative before:absolute before:inset-0 before:w-full before:h-full before:mt-4 before:pr-3 before:bg-base-300 before:opacity-100
+		before:rounded-b-box
 		"
 	>
 		{#each items as { label, href }}

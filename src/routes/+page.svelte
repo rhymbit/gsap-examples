@@ -9,4 +9,7 @@
 	/>
 
 	<p class="text-xl animate-pulse">Use Navbar to navigate to the different GSAP examples.</p>
+	<p class="text-xl animate-pulse">
+		Detailed explanations for animations are inside the source code
+	</p>
 </main>

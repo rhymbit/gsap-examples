@@ -8,16 +8,17 @@
 	import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 	import { onDestroy, onMount } from 'svelte';
 
-	let container: HTMLElement;
-	let cardTop: HTMLDivElement;
-	let cardBottom: HTMLDivElement;
-	let cardToAnimate: HTMLDivElement;
-
 	onMount(() => {
 		gsap.registerPlugin(ScrollTrigger, Flip);
 		// initialize the animation properties
 		anim();
 	});
+
+	// element references
+	let container: HTMLElement;
+	let cardTop: HTMLDivElement;
+	let cardBottom: HTMLDivElement;
+	let cardToAnimate: HTMLDivElement;
 
 	// using svelte-5 runes '$state'
 	let flipCtx: gsap.Context | null = $state(null);
@@ -32,6 +33,8 @@
 			cardBottom.appendChild(cardToAnimate);
 
 			// 3. Flip Step 3 - Call Flip.from() with the initial state
+			// And inside the variables, we've defined the final state of the animation
+			// I hope the reason for naming this method 'from()' is clear now
 			const flip = Flip.from(state, {
 				absolute: true,
 				rotate: '-2.5deg',
