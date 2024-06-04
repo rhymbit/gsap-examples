@@ -12,9 +12,11 @@
 				<NavbarDropdown
 					buttonTitle="Flip"
 					items={[
-						{ label: 'Cards Slider', href: 'cards-slider' },
-						{ label: 'Elements Swap', href: 'elements-swap' },
-						{ label: 'Card Sweeping With Scrollbar', href: 'card-sweeping-with-scrollbar' }
+						{ label: 'Cards Slider', href: '/flip/cards-slider' },
+						{ label: 'Elements Swap', href: '/flip/elements-swap' },
+						{ label: 'Tarot Cards', href: '/flip/tarot-cards' },
+						{ label: 'Expanding Input', href: '/flip/expanding-input' },
+						{ label: 'Card Sweeping With Scrollbar', href: '/flip/card-sweeping-with-scrollbar' }
 					]}
 				/>
 			</li>

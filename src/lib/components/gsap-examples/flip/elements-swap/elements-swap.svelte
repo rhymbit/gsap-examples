@@ -1,4 +1,9 @@
 <script lang="ts">
+	/**
+	 * Inspired from - https://codepen.io/GreenSock/pen/OJNYjmz
+	 * Uses GSAP Flip plugin to animate the elements swap
+	 */
+
 	import gsap from 'gsap';
 	import Flip from 'gsap/dist/Flip';
 	import { onMount } from 'svelte';

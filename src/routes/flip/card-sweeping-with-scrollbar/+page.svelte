@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ExamplePageHero from '$lib/components/example-page-hero/example-page-hero.svelte';
-	import CardSweepingWithScroll from '$lib/components/gsap-examples/card-sweeping-with-scroll/card-sweeping-with-scroll.svelte';
+	import CardSweepingWithScroll from '$lib/components/gsap-examples/flip/card-sweeping-with-scroll/card-sweeping-with-scroll.svelte';
 </script>
 
 <main class="w-full h-full">

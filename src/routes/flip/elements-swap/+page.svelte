@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ExamplePageHero from '$lib/components/example-page-hero/example-page-hero.svelte';
-	import ElementsSwap from '$lib/components/gsap-examples/elements-swap/elements-swap.svelte';
+	import ElementsSwap from '$lib/components/gsap-examples/flip/elements-swap/elements-swap.svelte';
 </script>
 
 <main class="w-full h-full">
