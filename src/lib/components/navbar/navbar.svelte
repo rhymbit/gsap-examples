@@ -16,6 +16,7 @@
 						{ label: 'Elements Swap', href: '/flip/elements-swap' },
 						{ label: 'Tarot Cards', href: '/flip/tarot-cards' },
 						{ label: 'Expanding Input', href: '/flip/expanding-input' },
+						{ label: 'Layout Change', href: '/flip/layout-change' },
 						{ label: 'Card Sweeping With Scrollbar', href: '/flip/card-sweeping-with-scrollbar' }
 					]}
 				/>

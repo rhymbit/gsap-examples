@@ -5,8 +5,8 @@
 
 <main class="w-full h-full">
 	<ExamplePageHero
-		title="Smooth Picture Swap"
-		description="Click on the images to swap them with a Flip effect."
+		title="Smooth Exapanding Input"
+		description="Start typing inside the input field to see it expand."
 	/>
 
 	<section class="p-20 w-full h-full flex justify-center">

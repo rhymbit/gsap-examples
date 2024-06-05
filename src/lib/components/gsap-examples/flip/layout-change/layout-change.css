@@ -1,0 +1,63 @@
+/* We keep the 'for' and 'gsap' text hidden in all layouts except the 'final' */
+.for {
+	@apply hidden px-2 py-1.5 font-semibold;
+}
+
+.gsap {
+	@apply hidden px-2 font-semibold;
+}
+
+/* Simple class for letters, nothing fancy here */
+.letter {
+	@apply px-5 py-10 flex justify-center items-center text-center text-9xl font-medium;
+}
+
+/*
+  ⚠️ Important
+  If you ever forget how this syntax works under the hood, then go checkout :-
+  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting/Using_CSS_nesting#compound_selectors
+
+  The way animation works is very simple. 
+  Just switch to correct container classes using GSAP's Flip.from() method and it takes care of everything 🤷🏻
+*/
+.container {
+	/* Simple flex container */
+	@apply w-full h-full flex justify-center items-center overflow-hidden;
+
+	/* .container.grid */
+	&.grid {
+		@apply content-stretch items-stretch flex-wrap;
+
+		/* .container.grid .letter */
+		.letter {
+			@apply h-full basis-1/2;
+		}
+	}
+
+	/* .container.columns */
+	&.columns {
+		@apply flex h-[50vh];
+
+		/* .container.columns .letter */
+		.letter {
+			@apply w-full h-full;
+		}
+	}
+
+	/* .container.plain */
+	&.plain {
+		.letter {
+			@apply bg-transparent p-0;
+		}
+	}
+
+	/* .container.final */
+	&.final {
+		.for {
+			@apply block;
+		}
+		.gsap {
+			@apply block;
+		}
+	}
+}
