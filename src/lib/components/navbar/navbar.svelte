@@ -9,6 +9,9 @@
 	<div class="navbar-center flex">
 		<ul class="menu menu-horizontal px-1">
 			<li>
+				<a href="/attention-grab-text">Attention Grab Text</a>
+			</li>
+			<li>
 				<NavbarDropdown
 					buttonTitle="Flip"
 					items={[
