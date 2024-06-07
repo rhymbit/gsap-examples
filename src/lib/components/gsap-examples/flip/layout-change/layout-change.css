@@ -24,34 +24,29 @@
 	/* Simple flex container */
 	@apply w-full h-full flex justify-center items-center overflow-hidden;
 
-	/* .container.grid */
+	/* If using VSCode, then hover over '&.grid' to see what it'll look like when applied to the element */
 	&.grid {
 		@apply content-stretch items-stretch flex-wrap;
 
-		/* .container.grid .letter */
 		.letter {
 			@apply h-full basis-1/2;
 		}
 	}
 
-	/* .container.columns */
 	&.columns {
 		@apply flex h-[50vh];
 
-		/* .container.columns .letter */
 		.letter {
 			@apply w-full h-full;
 		}
 	}
 
-	/* .container.plain */
 	&.plain {
 		.letter {
 			@apply bg-transparent p-0;
 		}
 	}
 
-	/* .container.final */
 	&.final {
 		.for {
 			@apply block;

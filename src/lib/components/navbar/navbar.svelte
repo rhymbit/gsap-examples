@@ -20,7 +20,8 @@
 						{ label: 'Tarot Cards', href: '/flip/tarot-cards' },
 						{ label: 'Expanding Input', href: '/flip/expanding-input' },
 						{ label: 'Layout Change', href: '/flip/layout-change' },
-						{ label: 'Card Sweeping With Scrollbar', href: '/flip/card-sweeping-with-scrollbar' }
+						{ label: 'Card Sweeping With Scrollbar', href: '/flip/card-sweeping-with-scrollbar' },
+						{ label: 'Move Items Between Containers', href: '/flip/move-items-btw-containers' }
 					]}
 				/>
 			</li>
