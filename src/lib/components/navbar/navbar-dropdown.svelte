@@ -10,7 +10,7 @@
 <div class="dropdown dropdown-bottom dropdown-hover">
 	<div tabindex="0" role="button">{buttonTitle}</div>
 	<ul
-		class="dropdown-content w-max max-w-xs pt-4
+		class="dropdown-content pt-4 w-max max-w-xs z-[1000]
 		relative before:absolute before:inset-0 before:w-full before:h-full before:mt-4 before:pr-3 before:bg-base-300 before:opacity-100
 		before:rounded-b-box
 		"
