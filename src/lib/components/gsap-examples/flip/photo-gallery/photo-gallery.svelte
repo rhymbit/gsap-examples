@@ -48,8 +48,7 @@
 			Flip.from(state, {
 				duration: 0.5,
 				ease: 'power2.inOut',
-				scale: true,
-				onComplete: () => {}
+				scale: true
 			}).to(detailsContent, { yPercent: 0, duration: 0.2 });
 
 			detailsImage.removeEventListener('load', onImageLoad);

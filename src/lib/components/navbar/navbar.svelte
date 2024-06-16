@@ -19,11 +19,23 @@
 						{ label: 'Elements Swap', href: '/flip/elements-swap' },
 						{ label: 'Tarot Cards', href: '/flip/tarot-cards' },
 						{ label: 'Expanding Input', href: '/flip/expanding-input' },
+						{ label: 'Expanding Item', href: '/flip/expanding-item' },
 						{ label: 'Layout Change', href: '/flip/layout-change' },
 						{ label: 'Photo Gallery', href: '/flip/photo-gallery' },
 						{ label: 'Cassie Wheel', href: '/flip/cassie-wheel' },
 						{ label: 'Card Sweeping With Scrollbar', href: '/flip/card-sweeping-with-scrollbar' },
 						{ label: 'Move Items Between Containers', href: '/flip/move-items-btw-containers' }
+					]}
+				/>
+			</li>
+			<li>
+				<NavbarDropdown
+					buttonTitle="Scroll Trigger"
+					items={[
+						{
+							label: 'Horizontal Vertical Transitions',
+							href: '/scroll-trigger/horizontal-vertical-transitions'
+						}
 					]}
 				/>
 			</li>
