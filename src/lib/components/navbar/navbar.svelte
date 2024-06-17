@@ -35,6 +35,10 @@
 						{
 							label: 'Horizontal Vertical Transitions',
 							href: '/scroll-trigger/horizontal-vertical-transitions'
+						},
+						{
+							label: 'Vertical Horizontal Transitions',
+							href: '/scroll-trigger/vertical-horizontal-transitions'
 						}
 					]}
 				/>
